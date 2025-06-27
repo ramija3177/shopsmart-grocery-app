@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Cart - ShopSmart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <h2>Your Shopping Cart</h2>
+
+  <!-- Cart Table -->
+  <div class="cart-container">
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items">
+        <!-- Cart items will appear here via JavaScript -->
+        <tr>
+          <td>Tomatoes</td>
+          <td>1</td>
+          <td>₹30</td>
+          <td>₹30</td>
+          <td><button>Remove</button></td><br>
+        </tr>
+        <!-- Add more rows dynamically later -->
+      </tbody>
+    </table>
+
+    <!-- Total Section -->
+    <div class="cart-total">
+      <h3>Total: ₹30</h3>
+      <button>Proceed to Checkout</button>
+    </div>
+  </div>
+
+</body>
+</html>
